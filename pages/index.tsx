@@ -13,7 +13,7 @@ import { GetStaticProps } from 'next'
 
 type Props = {
     initialImageUrl: string;
-    allPostsData: string;
+    allPostsData: any;
 };
 
 const IndexPage: NextPage<Props> = ({ initialImageUrl , allPostsData } ) =>{
